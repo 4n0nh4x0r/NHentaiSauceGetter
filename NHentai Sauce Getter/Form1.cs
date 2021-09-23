@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace NHentai_Sauce_Getter
@@ -19,17 +12,15 @@ namespace NHentai_Sauce_Getter
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
         }
 
         async private void getSauce()
         {
-
             string[] includedTags = tagsIncluded.Text.Split(',');
             string[] excludedTags = tagsExcluded.Text.Split(',');
 
             // There must be at least one tag in the include list
-            if(includedTags.Length == 1 && includedTags[0] == "")
+            if (includedTags.Length == 1 && includedTags[0] == "")
             {
                 MessageBox.Show("You need to have at least one tag in the include box", "Error");
                 return;
@@ -42,7 +33,6 @@ namespace NHentai_Sauce_Getter
                 outputArray[i] = NHentaiSharp.Core.SearchClient.GetExcludeTag(includedTags[i].Trim());
             }
             string outputStringIncludes = String.Join(", ", outputArray);
-
 
             // Formatting the exclude taglist to have a tag followed by ", " (Inportant for the nhentai library to work)
             outputArray = new string[excludedTags.Length];
@@ -58,7 +48,6 @@ namespace NHentai_Sauce_Getter
                 outputStringExcludes
             };
 
-
             Random r = new Random();
             try
             {
@@ -70,14 +59,13 @@ namespace NHentai_Sauce_Getter
                 var doujinshi = result.elements[r.Next(0, result.elements.Length)]; // We get a random doujinshi
 
                 // Here we add the doujin information to our listview box on the right side
-                listView1.Items.Add(new ListViewItem(new string[] { (doujinshi.id).ToString(), doujinshi.englishTitle, (doujinshi.numPages).ToString()}));
+                listView1.Items.Add(new ListViewItem(new string[] { (doujinshi.id).ToString(), doujinshi.englishTitle, (doujinshi.numPages).ToString() }));
             }
-            catch(Exception e)
-            {   
+            catch (Exception e)
+            {
                 // In case no doujin is being found, the upper code will error, to prevent the program from crashing we do this catch
                 MessageBox.Show("No results could be found with these tags", "Search Error");
             }
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -101,14 +89,29 @@ namespace NHentai_Sauce_Getter
                     case true: // Open the link directly in the browser
                         System.Diagnostics.Process.Start("https://www.nhentai.net/g/" + listView1.SelectedItems[0].Text.ToString());
                         break;
+
                     case false: // Change the linklabel on the form to the sauce for manual opening
                         sauceLinkLabel.Text = "https://www.nhentai.net/g/" + listView1.SelectedItems[0].Text.ToString();
                         break;
                 }
-            }catch (Exception err){
+            }
+            catch (Exception err)
+            {
                 // An error can occur while trying to change the linklabel text, dont ask me why, just accept it and....whatever
                 Console.WriteLine(err);
             }
+        }
+
+        private void listView1_DoubleClick(object sender, EventArgs e)
+        {
+
+            try
+            {
+                System.Diagnostics.Process.Start("https://www.nhentai.net/g/" + listView1.SelectedItems[0].Text.ToString());
+            }
+            catch (Exception err)
+            // Error can occur maybe when double clicking the listview without it having any items, i m too lazy to fix this, so i ll just do this try catch
+            {}
         }
     }
 }

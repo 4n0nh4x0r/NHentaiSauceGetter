@@ -1,0 +1,18 @@
+C:\@programming\c#\repos\NHentai Sauce Getter\NHentai Sauce Getter\bin\Release\NHentai Sauce Getter.exe.config
+C:\@programming\c#\repos\NHentai Sauce Getter\NHentai Sauce Getter\bin\Release\NHentai Sauce Getter.exe.manifest
+C:\@programming\c#\repos\NHentai Sauce Getter\NHentai Sauce Getter\bin\Release\NHentai Sauce Getter.application
+C:\@programming\c#\repos\NHentai Sauce Getter\NHentai Sauce Getter\bin\Release\NHentai Sauce Getter.exe
+C:\@programming\c#\repos\NHentai Sauce Getter\NHentai Sauce Getter\bin\Release\NHentai Sauce Getter.pdb
+C:\@programming\c#\repos\NHentai Sauce Getter\NHentai Sauce Getter\bin\Release\Newtonsoft.Json.dll
+C:\@programming\c#\repos\NHentai Sauce Getter\NHentai Sauce Getter\bin\Release\NHentaiSharp.dll
+C:\@programming\c#\repos\NHentai Sauce Getter\NHentai Sauce Getter\bin\Release\Newtonsoft.Json.xml
+C:\@programming\c#\repos\NHentai Sauce Getter\NHentai Sauce Getter\obj\Release\NHentai_Sauce_Getter.Form1.resources
+C:\@programming\c#\repos\NHentai Sauce Getter\NHentai Sauce Getter\obj\Release\NHentai_Sauce_Getter.Properties.Resources.resources
+C:\@programming\c#\repos\NHentai Sauce Getter\NHentai Sauce Getter\obj\Release\NHentai Sauce Getter.csproj.GenerateResource.cache
+C:\@programming\c#\repos\NHentai Sauce Getter\NHentai Sauce Getter\obj\Release\NHentai Sauce Getter.csproj.CoreCompileInputs.cache
+C:\@programming\c#\repos\NHentai Sauce Getter\NHentai Sauce Getter\obj\Release\NHentai Sauce Getter.TrustInfo.xml
+C:\@programming\c#\repos\NHentai Sauce Getter\NHentai Sauce Getter\obj\Release\NHentai Sauce Getter.exe.manifest
+C:\@programming\c#\repos\NHentai Sauce Getter\NHentai Sauce Getter\obj\Release\NHentai Sauce Getter.application
+C:\@programming\c#\repos\NHentai Sauce Getter\NHentai Sauce Getter\obj\Release\NHentai Sauce Getter.csproj.CopyComplete
+C:\@programming\c#\repos\NHentai Sauce Getter\NHentai Sauce Getter\obj\Release\NHentai Sauce Getter.exe
+C:\@programming\c#\repos\NHentai Sauce Getter\NHentai Sauce Getter\obj\Release\NHentai Sauce Getter.pdb

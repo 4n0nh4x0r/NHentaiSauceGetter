@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHentai Sauce Getter", "NHentai Sauce Getter\NHentai Sauce Getter.csproj", "{DC91A6FE-5333-4F4C-8172-B1164DEAA4E8}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "NHentai Sauce Getter Installer", "NHentai Sauce Getter Installer\NHentai Sauce Getter Installer.vdproj", "{EED0A1E1-0939-43F7-B47A-52A041DFF54B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC91A6FE-5333-4F4C-8172-B1164DEAA4E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC91A6FE-5333-4F4C-8172-B1164DEAA4E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC91A6FE-5333-4F4C-8172-B1164DEAA4E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC91A6FE-5333-4F4C-8172-B1164DEAA4E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EED0A1E1-0939-43F7-B47A-52A041DFF54B}.Debug|Any CPU.ActiveCfg = Debug
+		{EED0A1E1-0939-43F7-B47A-52A041DFF54B}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B31A21DA-F987-426B-855A-63159FB8A7E3}
+	EndGlobalSection
+EndGlobal
